@@ -59,11 +59,13 @@
                 = "Your hand: " + playerHand
                 + "<br>Robot's hand: " + robotHand
                 + "<br>Paper covers rock! You win.";
+                winCount++;
             } else {
                 output.innerHTML 
                 = "Your hand: " + playerHand
                 + "<br>Robot's hand: " + robotHand
                 + "<br>Rock smashes scissors! You lose.";
+                loseCount++;
             }
         } else if (robotHand == "Paper") {
             if (playerHand === "Rock") {
@@ -71,11 +73,13 @@
                 = "Your hand: " + playerHand
                 + "<br>Robot's hand: " + robotHand
                 + "<br>Paper covers rock! You lose.";
+                loseCount++;
             } else {
                 output.innerHTML 
                 = "Your hand: " + playerHand
                 + "<br>Robot's hand: " + robotHand
                 + "<br>Paper cuts scissors! You win.";
+                winCount++;
 
             }
         } else {
@@ -84,11 +88,13 @@
                 = "Your hand: " + playerHand
                 + "<br>Robot's hand: " + robotHand
                 + "<br>Rock smashes scissors! You win.";
+                winCount++;
             } else {
                 output.innerHTML 
                 = "Your hand: " + playerHand
                 + "<br>Robot's hand: " + robotHand
                 + "<br>Scissors cut paper! You lose.";
+                loseCount++;
             }
         }
 
