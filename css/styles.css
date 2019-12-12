@@ -1,5 +1,5 @@
 html {
-    background: palegoldenrod;
+    background: #eee;
 }
 input {
     width: 80px;
@@ -7,11 +7,13 @@ input {
     cursor: pointer;
     border: none;
     outline: none;
-    margin: 0 20px;
+    margin: 10px 20px;
 
 }
 
 #stage {
+    background: palegoldenrod;
+    box-shadow: 2px 1px 3px #000;
     margin: 100px auto;
     width: 50vw;
     min-width: 100px;
