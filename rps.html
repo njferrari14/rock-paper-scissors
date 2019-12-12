@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title>Rock Paper Scissors"</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="stage">
+        <h1>Rock Paper Scissors!</h1>
+        <h2>Ready?</h2>
+        <button id="rock">Rock!</button>
+        <button id="paper">Paper!</button>
+        <button id="scissors">Scissors!</button>
+        <p id="output"></p>
+    </div>
+
+
+<script>
+
+    let robotHand = computerPlay();
+
+    function computerPlay() {
+        return Math.round(Math.random() * 3);
+    }
+
