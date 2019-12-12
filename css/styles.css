@@ -1,0 +1,30 @@
+html {
+    background: palegoldenrod;
+}
+input {
+    width: 80px;
+    height: 70px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 0 20px;
+
+}
+
+#stage {
+    margin: 100px auto;
+    width: 50vw;
+    min-width: 100px;
+    border: solid 1px #000;
+    text-align: center;
+}
+
+#rock {
+    background: url(../images/rock.png) no-repeat;
+}
+#paper {
+    background: url(../images/paper.png) no-repeat;
+}
+#scissors {
+    background: url(../images/scissors.png) no-repeat;
+}

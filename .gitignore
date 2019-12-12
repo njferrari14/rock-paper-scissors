@@ -65,3 +65,11 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+
+# Ignore images
+.png
+.svg
+.img
+.jpg
+.psd
+.gif
