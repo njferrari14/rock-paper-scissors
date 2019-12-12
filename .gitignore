@@ -66,8 +66,7 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 
-# Ignore images
-.png
+# Ignore images except .png
 .svg
 .img
 .jpg
