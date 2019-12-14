@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Rock Paper Scissors"</title>
+    <title>Rock Paper Scissors</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
 </head>
